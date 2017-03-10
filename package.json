@@ -2,7 +2,7 @@
   "name": "desktopvueadmin",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "ChaoshengZhang <1019779284@qq.com>",
+  "author": "ChaoshengZhang 123<1019779284@qq.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
