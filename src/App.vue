@@ -18,6 +18,10 @@ export default {
         height:100%;
         overflow: hidden;
     }
+    body{
+        background: url("../assets/images/bg.jpg") no-repeat;
+        background-size: cover;
+    }
     #app{
         font-size: 36px;
         text-align: center;
