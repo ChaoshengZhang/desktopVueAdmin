@@ -1,0 +1,86 @@
+body, html {
+  height: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: Verdana,"Microsoft YaHei"; }
+
+body {
+  background: url("../assets/images/bg.jpg") no-repeat;
+  background-size: cover; }
+
+.alarm-num {
+  background: darkred;
+  display: inline-block;
+  padding: 0 5px;
+  height: 16px;
+  line-height: 16px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-left: 4px; }
+
+#footer .el-badge__content.is-fixed.is-dot {
+  top: 5px !important; }
+
+.iFrame-show {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  transform-origin: center center;
+  background: #fff;
+  width: 1100px;
+  height: 700px; }
+  .iFrame-show .iFrame-show-title {
+    height: 32px;
+    background-color: chocolate;
+    line-height: 32px;
+    color: #fff;
+    padding: 0 12px;
+    cursor: move;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none; }
+    .iFrame-show .iFrame-show-title .handle-icon {
+      float: right; }
+      .iFrame-show .iFrame-show-title .handle-icon a {
+        margin-left: 4px; }
+  .iFrame-show .iFrame-show-content {
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    top: 42px;
+    bottom: 15px;
+    right: 10px;
+    overflow: auto; }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+  background-color: #F5F5F5; }
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=main.css.map */
