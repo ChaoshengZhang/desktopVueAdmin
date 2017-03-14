@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   overflow: hidden;
   font-size: 14px;
-  font-family: Verdana,"Microsoft YaHei"; }
+  font-family: "Verdana","Microsoft YaHei"; }
 
 body {
   background: url("../assets/images/bg.jpg") no-repeat;
@@ -25,24 +25,11 @@ body {
 
 .iFrame-show {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -ms-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  -ms-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-  transform-origin: center center;
   background: #fff;
   width: 1100px;
   height: 700px; }

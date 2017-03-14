@@ -98,7 +98,7 @@
                         "url":"caseManagement"
                     },
                     {
-                        "name":"入侵数据挖掘",
+                        "name":"入侵数据挖掘123",
                         "icon":"icon-sjwj",
                         "url":"intrusionData"
                     },

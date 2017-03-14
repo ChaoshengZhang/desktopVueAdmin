@@ -1,7 +1,7 @@
 <template>
     <footer id="footer" :style="{left:positionLeft+'px'}">
         <div class="footer-left">
-            <a href="javascript;;" class="my-item">
+            <a href="javascript:;" class="my-item">
                 <el-tooltip content="Home" placement="top">
                     <i class="el-icon-menu"></i>
                 </el-tooltip>
@@ -18,19 +18,7 @@
                     </el-dropdown-menu>
                 </el-dropdown>
             </div>
-            <div class="active-window">
-                <ul>
-                    <li>
-                        <a href="">安全态势感知</a>
-                    </li>
-                    <li>
-                        <a href="">漏洞告警</a>
-                    </li>
-                    <li>
-                        <a href="">攻击统计</a>
-                    </li>
-                </ul>
-            </div>
+            <slot></slot>
         </div>
         <div class="footer-right">
             <div class="item">
@@ -75,7 +63,7 @@
         left:0;
         bottom:0;
         right:0;
-        z-index: 1;
+        z-index: 102;
         @include transition();
         .footer-left{
             float: left;
@@ -138,7 +126,7 @@
 <script>
 
     export  default({
-        props:['positionLeft'],
+        props:['positionLeft',"openedWindowList"],
         data(){
             return {
                 diskAlarm:{

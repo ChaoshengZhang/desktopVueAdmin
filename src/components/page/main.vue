@@ -1,7 +1,7 @@
 <template>
     <div id="main" :style="{left:positionLeft+20+'px'}">
         <div class="head-title">
-            <span>中新金盾高级持续性威胁防御平台</span>
+            <span>中新金盾高级持续性威胁防御平台111</span>
         </div>
         <div class="main-list">
             <el-row>
